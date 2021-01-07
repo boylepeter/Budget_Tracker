@@ -10,18 +10,14 @@ const FILES_TO_CACHE = [
   "/assets/icons/icon-192x192.png",
   "/assets/icons/icon-512x512.png",
   "/db.js",
-  // "serviceworker.js",
-  // "../models/transaction.js",
-  // "/styles.css",
-  // "../routes/api.js",
-  // "../server.js"
+  "/styles.css",
 ];
 
 // install
 self.addEventListener("install", function (evt) {
   // pre cache image data
   evt.waitUntil(
-    caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/"))
+    caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transaction"))
   );
     
   // pre cache all static assets
