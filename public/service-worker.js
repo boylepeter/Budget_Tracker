@@ -11,6 +11,7 @@ const FILES_TO_CACHE = [
   "/assets/icons/icon-512x512.png",
   "/db.js",
   "/styles.css",
+
 ];
 
 // install

@@ -2,7 +2,7 @@
 # Budget Tracker PWA
 
 ## Description: 
-Tasked with developing a progressive web app capable of receiving and storing transactions, tracking this data, and outputting it in a chart. This app was required to be offline capable with no deterioration of appearance or function. 
+Tasked with developing the backend for a progressive web app capable of receiving and storing transactions, tracking this data, and outputting it in a chart. This app was required to be offline capable with no deterioration of appearance or function. The front end for this app was developed by instructor, and so the offline capability of the app was the focus for this project. 
 ## Table of Contents
 
 -[Description](#description)
@@ -22,7 +22,7 @@ Tasked with developing a progressive web app capable of receiving and storing tr
 -[Testing](#Tests)
 
 ## Installation:
-The app requires no additional installation and is ready to use at our deployed URL below.
+The app requires no additional installation and is ready to use at our deployed URL below. For developing the app, we utilized the morgan, lite-server, compression, express and mongoose NPMs.
 ## Instructions:
 By inputing a transaction and amount the user simply chooses whether it is an addition or subtraction from the balance. The transaction is then logged, and displayed as well as added to the page chart.
 ### Licenses: 
@@ -30,7 +30,7 @@ By inputing a transaction and amount the user simply chooses whether it is an ad
 ### Deployed: 
 [https://limitless-meadow-92547.herokuapp.com/](https://limitless-meadow-92547.herokuapp.com/)
 
-![image](./assets/images/screenshot1.png)
+![image](/public/assets/images/screenshot1.png)
 
 ### Contact:
 
